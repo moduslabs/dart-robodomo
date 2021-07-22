@@ -1,0 +1,15 @@
+name: bravia_microservice
+description: RoboDomo bravia-microservice in Dart
+version: 1.0.0
+homepage: https://github.com/ModusLabs/dart-samples/RoboDomo/bravia-microservice
+
+environment:
+  sdk: '>=2.10.0 <3.0.0'
+
+dependencies:
+  debug: ^1.0.0
+  bravia: ^1.0.0
+  modus_mqtt:
+    path: ../pkg/modus_mqtt
+  hostbase:
+    path: ../pkg/hostbase

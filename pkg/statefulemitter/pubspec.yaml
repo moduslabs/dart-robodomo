@@ -1,0 +1,23 @@
+name: statefulemitter
+version: 1.0.2
+description: >-
+  Extended EventEmitter that fires "statechange" event when state member is changed.
+
+  Child classes that inherit from EventEmitter can use the standard event emit, subscribe, unsubscribe, etc., methods of EventEmitter. This class adds a private _state member and a setState(object) and getState() method as well as getter/setter for the getState/SetState methods.
+
+  Whenever the state is changed, a 'statechange' event will be emitted with the previous state as argument.  This allows the handler to compare old state with new state, if desired.
+
+  This package was developed as part of a port of Modus Create's IoT platform, RoboDomo from JavaScript to Dart and Flutter.  The original can be found at https://github.com/RoboDomo.
+
+homepage: https://github.com/ModusLabsOrg/RoboDomo-mono
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  eventify: ^1.0.0
+  debug: ^1.0.0
+
+#dev_dependencies:
+#  pedantic: ^1.9.0
+#  test: ^1.14.4

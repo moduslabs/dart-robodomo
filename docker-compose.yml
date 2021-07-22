@@ -1,0 +1,59 @@
+version: "3"
+
+services:
+
+  presence-microservice:
+    image: dart-samples/presence-microservice
+    environment:
+      - DEBUG=${DEBUG}
+    dns:
+      - 192.168.1.1
+    build:
+      context: .
+      dockerfile: presence-microservice/Dockerfile
+
+  myq-microservice:
+    image: dart-samples/myq-microservice
+    environment:
+      - DEBUG=${DEBUG}
+      - MYQ_EMAIL=${MYQ_EMAIL}
+      - MYQ_PASSWORD=${MYQ_PASSWORD}
+    dns:
+      - 192.168.1.1
+    build:
+      context: .
+      dockerfile: myq-microservice/Dockerfile
+
+  weather-microservice:
+    image: dart-samples/weather-microservice
+    environment:
+      - DEBUG=${DEBUG}
+      - WEATHER_APP_ID=${WEATHER_APP_ID}
+      - WEATHER_APP_CODE=${WEATHER_APP_CODE}
+      - METRIC=false
+    dns:
+      - 192.168.1.1
+    build:
+      context: .
+      dockerfile: weather-microservice/Dockerfile
+
+  bravia-microservice:
+    image: dart-samples/bravia-microservice
+    environment:
+      - DEBUG=${DEBUG}
+    dns:
+      - 192.168.1.1
+    build:
+      context: .
+      dockerfile: bravia-microservice/Dockerfile
+
+  samsung-microservice:
+    image: dart-samples/samsung-microservice
+    environment:
+      - DEBUG=${DEBUG}
+    network_mode: "host" # required for wake on LAN to work
+    dns:
+      - 192.168.1.1
+    build:
+      context: .
+      dockerfile: samsung-microservice/Dockerfile

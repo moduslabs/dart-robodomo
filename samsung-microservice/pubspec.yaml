@@ -1,0 +1,15 @@
+name: samssung_microservice
+description: RoboDomo samssung-microservice in Dart
+version: 1.0.0
+homepage: https://github.com/ModusLabs/dart-samples/RoboDomo/samsung-microservice
+
+environment:
+  sdk: '>=2.10.0 <3.0.0'
+
+dependencies:
+  debug: ^1.0.0
+  samsung: ^1.0.0
+  modus_mqtt:
+    path: ../pkg/modus_mqtt
+  hostbase:
+    path: ../pkg/hostbase

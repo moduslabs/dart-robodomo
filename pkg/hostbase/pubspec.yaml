@@ -1,0 +1,23 @@
+name: hostbase
+description: Common abstract base class for "hosts"
+version: 1.0.1
+# homepage: https://www.example.com
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  mqtt_client: ^9.2.0
+  mongo_dart: ^0.7.0+1
+  env_get: ^1.0.0
+  debug: ^1.0.0
+  modus_mqtt:
+    path: ../modus_mqtt
+  modus_json: ^1.0.0
+  statefulemitter: ^1.0.2
+#  statefulemitter:
+#    path: ../statefulemitter
+#  path: ^1.7.0
+
+dev_dependencies:
+  pedantic: ^1.11.0

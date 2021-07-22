@@ -1,0 +1,15 @@
+name: env_get
+description: Easy to use JavaScript ENV variable getter/setter
+version: 1.0.0
+homepage: https://github.com/ModusLabs/RoboDomo-mono
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+### no dependencies for now
+#dependencies:
+
+### no unit tests for now
+#dev_dependencies:
+#  pedantic: ^1.9.0
+#  test: ^1.14.4

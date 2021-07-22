@@ -1,0 +1,103 @@
+;; -*- mode: emacs-lisp; lexical-binding:t; coding: utf-8-emacs; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Thu Jun  3 13:51:26 2021
+;; Desktop file format version 208
+;; Emacs version 27.2
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (24761 16590 998492 800000) (desktop . "208") "mschwartz@BLD" nil nil ((((minibuffer . t) (tty-type . "screen-256color") (tty . "/dev/tty") (display-type . color) (background-mode . dark) (cursor-color . "#ff9800") (foreground-color . "#ffffff") (background-color . "#262626") (border-color . "#3a3a3a") (font . "tty") (height . 119) (width . 133) (modeline . t) (unsplittable) (menu-bar-lines . 1) (tab-bar-lines . 0) (tabs (current-tab (name . "bravia.dart") (explicit-name))) (frameset--id . "C0C0-F3ED-B903-81B0") (frameset--mini t)) ((min-height . 4) (min-width . 36) (min-height-ignore . 2) (min-width-ignore . 4) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 4) (min-pixel-width . 36) (min-pixel-height-ignore . 2) (min-pixel-width-ignore . 4) (min-pixel-height-safe . 1) (min-pixel-width-safe . 4)) hc (pixel-width . 133) (pixel-height . 118) (total-width . 133) (total-height . 118) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 26) (pixel-height . 118) (total-width . 26) (total-height . 118) (normal-height . 1.0) (normal-width . 0.1992481203007519) (parameters (window-side . left) (window-slot . 0)) (buffer " *NeoTree*" (selected) (hscroll . 0) (fringes 0 0 nil nil) (margins nil) (scroll-bars nil 0 t nil 0 t nil) (vscroll . 0) (dedicated . t) (point . 97) (start . 1)) (prev-buffers (" *NeoTree*" 1 97))) (leaf (last . t) (pixel-width . 107) (pixel-height . 118) (total-width . 107) (total-height . 118) (normal-height . 1.0) (normal-width . 0.8007518796992481) (buffer "server.dart" (selected . t) (hscroll . 0) (fringes 0 0 nil nil) (margins nil) (scroll-bars nil 0 t nil 0 t nil) (vscroll . 0) (dedicated) (point . 1) (start . 1)))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring nil)
+(setq regexp-search-ring nil)
+(setq register-alist '((48 . #("(add-to-list 'auto-mode-alist '(\"\\\\.yml\\\\'\" . yaml-mode))\n" 0 31 (fontified t yank-handler (evil-yank-line-handler nil t)) 31 32 (fontified t yank-handler (evil-yank-line-handler nil t)) 32 42 (face font-lock-string-face fontified t yank-handler (evil-yank-line-handler nil t)) 42 43 (face font-lock-string-face fontified t yank-handler (evil-yank-line-handler nil t)) 43 55 (fontified t yank-handler (evil-yank-line-handler nil t)) 55 56 (fontified t yank-handler (evil-yank-line-handler nil t)) 56 57 (fontified t yank-handler (evil-yank-line-handler nil t)) 57 58 (fontified t yank-handler (evil-yank-line-handler nil t))))))
+(setq file-name-history nil)
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 208
+  "/mnt/c/Users/mykes/IdeaProjects/dart-samples/RoboDomo/bravia-microservice/bin/server.dart"
+  "server.dart"
+  'dart-mode
+  '(override-global-mode flycheck-mode undo-tree-mode lsp-mode helm-ff-cache-mode helm-mode company-mode magit-file-mode which-key-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-display-time 24761 16590 996213 500000) (overwrite-mode) (fill-column . 80))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/mschwartz/.emacs"
+  ".emacs"
+  'emacs-lisp-mode
+  '(eldoc-mode override-global-mode flycheck-mode undo-tree-mode helm-ff-cache-mode helm-mode company-mode which-key-mode)
+  15900
+  '(15863 nil)
+  nil
+  nil
+  '((tab-width . 4) (buffer-display-time 24761 16580 661715 500000) (buffer-file-coding-system . utf-8-unix) (overwrite-mode))
+  '((mark-ring (15920 6700 2995 2325 2243 2169 2099 467 15803 1))))
+
+(desktop-create-buffer 208
+  "/mnt/c/Users/mykes/IdeaProjects/dart-samples/RoboDomo/bravia-microservice/pubspec.yaml"
+  "pubspec.yaml"
+  'text-mode
+  '(override-global-mode flycheck-mode undo-tree-mode helm-ff-cache-mode helm-mode company-mode magit-file-mode which-key-mode)
+  367
+  '(367 nil)
+  nil
+  nil
+  '((buffer-display-time 24761 16471 261332 100000) (buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (367))))
+
+(desktop-create-buffer 208
+  "/mnt/c/Users/mykes/IdeaProjects/dart-samples/RoboDomo/pkg/bravia/lib/bravia.dart"
+  "bravia.dart"
+  'dart-mode
+  '(override-global-mode flycheck-mode undo-tree-mode lsp-mode helm-ff-cache-mode helm-mode company-mode auto-revert-mode magit-file-mode which-key-mode)
+  1473
+  '(1439 nil)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-display-time 24761 13467 805172 400000) (buffer-file-coding-system . utf-8-unix) (overwrite-mode) (fill-column . 80))
+  '((mark-ring (1123 1189 1757 1788 1273 1472 1215 1352 1474 1439))))
+
+(desktop-create-buffer 208
+  "/mnt/c/Users/mykes/IdeaProjects/dart-samples/RoboDomo/pkg/hostbase/lib/HostBase.dart"
+  "HostBase.dart"
+  'dart-mode
+  '(override-global-mode flycheck-mode undo-tree-mode lsp-mode helm-ff-cache-mode helm-mode company-mode auto-revert-mode magit-file-mode which-key-mode)
+  5
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-display-time 24761 12675 290089 500000) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (fill-column . 80))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/mnt/c/Users/mykes/IdeaProjects/dart-samples/RoboDomo/pkg/bravia/pubspec.yaml"
+  "pubspec.yaml"
+  'text-mode
+  '(override-global-mode flycheck-mode undo-tree-mode helm-ff-cache-mode helm-mode company-mode auto-revert-mode magit-file-mode which-key-mode)
+  261
+  '(261 nil)
+  nil
+  nil
+  '((buffer-display-time 24761 12625 29534 200000) (buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (270))))
+
+(desktop-create-buffer 208
+  "/mnt/c/Users/mykes/IdeaProjects/dart-samples/README.md"
+  "README.md"
+  'markdown-mode
+  '(eldoc-mode override-global-mode flycheck-mode undo-tree-mode helm-ff-cache-mode helm-mode company-mode auto-revert-mode magit-file-mode which-key-mode)
+  14
+  '(14 nil)
+  nil
+  nil
+  '((tab-width . 4) (buffer-display-time 24761 12576 161586 300000) (overwrite-mode))
+  '((mark-ring nil)))
+

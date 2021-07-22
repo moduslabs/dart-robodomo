@@ -1,0 +1,16 @@
+name: samsung
+description: A Dart interface to SamsungTVs (control and monitor)
+version: 1.0.1
+homepage: https://github.com/ModusLabs/dart-samples/RoboDomo/pkg/samsung
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  env_get: ^1.0.0
+  debug: ^1.0.0
+  modus_json: ^1.0.0
+  statefulemitter: ^1.0.2
+  dio: ^4.0.0
+  wake_on_lan: ^2.0.1
+
