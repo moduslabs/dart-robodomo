@@ -13,7 +13,7 @@ dependencies:
   statefulemitter: ^1.0.2
 #  statefulemitter:
 #    path: ../statefulemitter
-  dio: ^4.0.0
+  dio: ">=4.0.0 <6.0.0"
 
 dev_dependencies:
   pedantic: ^1.11.0
